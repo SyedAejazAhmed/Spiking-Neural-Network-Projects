@@ -1,0 +1,27 @@
+LSTM STOCK PREDICTION RESULTS SUMMARY
+============================================================
+
+ARCHITECTURE:
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.3
+  total_params: 220866
+
+TRAINING:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  training_time: 2.0286307334899902
+
+METRICS:
+  accuracy: 0.4500
+  f1_score: 0.4762
+  precision: 0.4545
+  recall: 0.5000
+  avg_inference_time_ms: 0.3393
+
+BACKTESTING:
+  sharpe_ratio: 4.0192
+  total_return: 0.0625
+  buy_hold_return: -0.0550
+  win_rate: 0.4500

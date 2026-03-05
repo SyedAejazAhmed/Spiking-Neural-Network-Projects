@@ -1,0 +1,27 @@
+SNN STOCK PREDICTION RESULTS SUMMARY
+============================================================
+
+ARCHITECTURE:
+  hidden_size: 128
+  num_layers: 3
+  timesteps: 25
+  total_params: 94146
+
+TRAINING:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  training_time: 8.417682886123657
+
+METRICS:
+  accuracy: 0.5000
+  f1_score: 0.6429
+  precision: 0.5000
+  recall: 0.9000
+  avg_inference_time_ms: 2.6710
+
+BACKTESTING:
+  sharpe_ratio: -5.3646
+  total_return: -0.0794
+  buy_hold_return: -0.0550
+  win_rate: 0.5000

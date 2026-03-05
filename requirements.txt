@@ -2,3 +2,8 @@ torch
 torchvision
 matplotlib
 notebook
+scikit-learn
+pandas
+yfinance
+TA-Lib
+seaborn
