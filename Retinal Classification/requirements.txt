@@ -1,0 +1,7 @@
+kagglehub
+numpy 
+scipy 
+tqdm 
+scikit-learn 
+matplotlib
+pillow
