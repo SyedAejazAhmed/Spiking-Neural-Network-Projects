@@ -1,3 +1,5 @@
 References/
 venv/
 *.pyc
+Retinal Classification/Paper/
+Retinal Classification/dataset/aptos2019-blindness-detection/

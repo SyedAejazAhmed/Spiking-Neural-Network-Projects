@@ -7,3 +7,5 @@ pandas
 yfinance
 TA-Lib
 seaborn
+snntorch
+numpy
