@@ -9,3 +9,4 @@ TA-Lib
 seaborn
 snntorch
 numpy
+gradio
