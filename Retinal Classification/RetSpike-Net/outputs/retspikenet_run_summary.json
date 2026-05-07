@@ -1,0 +1,14 @@
+{
+  "run_start": "2026-05-07 01:37:45",
+  "run_end": "2026-05-07 07:17:43",
+  "durations_sec": {
+    "load_data_sec": 212.91395688056946,
+    "stdp_train_sec": 19665.461103200912,
+    "zone1_encode_sec": 237.9120602607727,
+    "sg_train_sec": 276.36568880081177,
+    "total_sec": 20398.307230710983
+  },
+  "checkpoint": "/media/aejaz/New Volume/Projects/SNN/Retinal Classification/RetSpike-Net/outputs/retspikenet_best.pth",
+  "history_csv": "/media/aejaz/New Volume/Projects/SNN/Retinal Classification/RetSpike-Net/outputs/retspikenet_history.csv",
+  "split_metrics_csv": "/media/aejaz/New Volume/Projects/SNN/Retinal Classification/RetSpike-Net/outputs/retspikenet_split_metrics.csv"
+}
