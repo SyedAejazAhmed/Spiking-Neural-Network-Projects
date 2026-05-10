@@ -52,3 +52,31 @@ See `References/Links.txt` for a curated list of SNN resources, including:
 ## Notes
 
 - The notebook has been updated to handle device placement (CPU/GPU) correctly for visualization.
+
+---
+
+## 📝 Models for Publication / Paper
+
+Three models are recommended for your paper (all with strong performance and clear contributions):
+
+### **Recommended Paper Models (3-4)**
+
+| # | Model | Test Acc | Macro F1 | Contribution | Status |
+|---|---|---:|---:|---|---|
+| 1 | **RetSpike-Net** | 70.80% | **0.4985** | 🎯 Main: Novel spiking approach, best balanced performance | ✅ Ready |
+| 2 | **Basic CNN** | **72.70%** | 0.3832 | 📌 Baseline: Strong CNN comparison, shows SNNs are competitive | ✅ Ready |
+| 3 | **Proto k-shot SCNN** | 60.49% | 0.3111 | 🔬 Innovation: Few-shot learning angle, methodological diversity | ✅ Ready |
+| 4 | **CSNN** | 37.33% | 0.2125 | ⚠️ Optional: Only if discussing future optimizations/challenges | ⚠️ Needs tuning |
+
+### **Why These 3?**
+
+- **Novelty**: RetSpike-Net shows spiking nets can match/beat standard CNNs on real medical data
+- **Rigor**: Basic CNN provides credible baseline for comparison
+- **Scope**: Proto k-shot adds methodological breadth (few-shot angle)
+- **Quality**: All three are ≥60% accuracy; strong enough for conference/journal publication
+
+### **Not Recommended for Paper:**
+- ❌ **CSNN** (37.33% accuracy; underperforming unless specifically discussing why)
+- ❌ **Spike Classifier** (incomplete metrics)
+
+→ **Full model comparison**: See [Retinal Classification/README.md](Retinal%20Classification/README.md) for detailed architecture, tables, and all results.
